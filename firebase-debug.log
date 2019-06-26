@@ -1,0 +1,37 @@
+[debug] [2019-05-07T04:53:21.282Z] ----------------------------------------------------------------------
+[debug] [2019-05-07T04:53:21.285Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-05-07T04:53:21.285Z] CLI Version:   6.8.0
+[debug] [2019-05-07T04:53:21.285Z] Platform:      darwin
+[debug] [2019-05-07T04:53:21.285Z] Node Version:  v8.11.3
+[debug] [2019-05-07T04:53:21.286Z] Time:          Tue May 07 2019 10:23:21 GMT+0530 (IST)
+[debug] [2019-05-07T04:53:21.286Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-07T04:53:21.321Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-07T04:53:21.322Z] > authorizing via signed-in user
+[debug] [2019-05-07T04:53:21.322Z] [iam] checking project travelplan-239810 for permissions ["firebase.projects.get"]
+[debug] [2019-05-07T04:53:21.324Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-05-07T04:53:21.324Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-05-07T04:53:21.645Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-07T04:53:21.682Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/travelplan-239810:testIamPermissions  
+
+[debug] [2019-05-07T04:53:23.397Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-07T04:53:23.398Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/travelplan-239810  
+ 
+[debug] [2019-05-07T04:53:24.965Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/raj/Desktop/mytestAPP/myapp'...
+[info] 
+[debug] [2019-05-07T04:53:29.846Z] Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/logs'
+    at Object.fs.mkdirSync (fs.js:885:18)
+    at Object.assertLogsPath (/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/emulator/logs.js:65:10)
+    at new Controller (/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/cli/controller.js:77:32)
+    at FunctionsEmulator.start (/usr/local/lib/node_modules/firebase-tools/lib/functionsEmulator.js:102:23)
+    at Object.start (/usr/local/lib/node_modules/firebase-tools/lib/serve/functions.js:7:33)
+    at /usr/local/lib/node_modules/firebase-tools/lib/serve/index.js:15:23
+    at arrayMap (/usr/local/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:639:23)
+    at Function.map (/usr/local/lib/node_modules/firebase-tools/node_modules/lodash/lodash.js:9556:14)
+    at _serve (/usr/local/lib/node_modules/firebase-tools/lib/serve/index.js:13:26)
+    at Command.module.exports.Command.description.option.option.option.option.before.action [as _action] (/usr/local/lib/node_modules/firebase-tools/lib/commands/serve.js:55:12)
+[error] 
+[error] Error: An unexpected error has occurred.
