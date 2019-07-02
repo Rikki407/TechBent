@@ -141,8 +141,8 @@ const styles = StyleSheet.create({
 		position: 'absolute',
 	},
 	imageViewSO: {
-		left: 114,
-		top:71.5,   
+		left: '11.1%',
+		top:'11.8%',   
 		width: '52.122%',
 		height: '67.8%',
 		position: 'absolute',

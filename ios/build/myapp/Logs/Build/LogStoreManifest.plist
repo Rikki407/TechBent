@@ -5,6 +5,65 @@
 	<key>logFormatVersion</key>
 	<integer>9</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>2B6BA081-F195-4E13-9283-1434929F3422</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2B6BA081-F195-4E13-9283-1434929F3422.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>myapp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>myapp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project myapp with scheme myapp and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>583748959.38331497</real>
+			<key>timeStoppedRecording</key>
+			<real>583749034.08211601</real>
+			<key>title</key>
+			<string>Building project myapp with scheme myapp and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>2B6BA081-F195-4E13-9283-1434929F3422</string>
+		</dict>
+		<key>97D4CBEB-6788-4B5D-987C-F5F6C4C57F8D</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>97D4CBEB-6788-4B5D-987C-F5F6C4C57F8D.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>myapp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>myapp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project myapp with scheme myapp and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>583746399.93666697</real>
+			<key>timeStoppedRecording</key>
+			<real>583747019.16396499</real>
+			<key>title</key>
+			<string>Building project myapp with scheme myapp and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>97D4CBEB-6788-4B5D-987C-F5F6C4C57F8D</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
