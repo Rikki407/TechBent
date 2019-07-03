@@ -5,6 +5,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 
 import Home from './Home/Home';
 import Dashboard from './Dashboard/Dashboard'
+import DR from './Dashboard/DashboardRikki'
 import Createtourtrip from './Createtourtrip'
 import Login from './Login'
 import ThreeD from './Showtourtrip'
@@ -49,7 +50,7 @@ const { height, width } = Dimensions.get('window')
 const Drawer = createDrawerNavigator(
     {
         ThreeD: {
-            screen: Dashboard,
+            screen: DR,
             navigationOptions: {
                 header: null,
             },

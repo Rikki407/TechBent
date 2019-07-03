@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>BD5C9ACA-1B2F-4168-A43C-B9DF495B5C75</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BD5C9ACA-1B2F-4168-A43C-B9DF495B5C75.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>myapp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>myapp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project myapp with scheme myapp and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>583824617.86724997</real>
+			<key>timeStoppedRecording</key>
+			<real>583824666.24144995</real>
+			<key>title</key>
+			<string>Building project myapp with scheme myapp and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>BD5C9ACA-1B2F-4168-A43C-B9DF495B5C75</string>
+		</dict>
+		<key>EFFE3A65-95F5-4428-82E9-C55A16A67FA0</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EFFE3A65-95F5-4428-82E9-C55A16A67FA0.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>myapp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>myapp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project myapp with scheme myapp and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>583824892.326105</real>
+			<key>timeStoppedRecording</key>
+			<real>583824917.45295298</real>
+			<key>title</key>
+			<string>Building project myapp with scheme myapp and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>EFFE3A65-95F5-4428-82E9-C55A16A67FA0</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

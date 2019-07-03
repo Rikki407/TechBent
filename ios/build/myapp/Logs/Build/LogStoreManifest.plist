@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>2B6BA081-F195-4E13-9283-1434929F3422</key>
+		<key>3B590E6B-E715-4746-A163-086BFDA7994A</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>2B6BA081-F195-4E13-9283-1434929F3422.xcactivitylog</string>
+			<string>3B590E6B-E715-4746-A163-086BFDA7994A.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,42 +27,13 @@
 			<key>signature</key>
 			<string>Building project myapp with scheme myapp and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>583748959.38331497</real>
+			<real>583839537.48105001</real>
 			<key>timeStoppedRecording</key>
-			<real>583749034.08211601</real>
+			<real>583839633.60060406</real>
 			<key>title</key>
 			<string>Building project myapp with scheme myapp and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>2B6BA081-F195-4E13-9283-1434929F3422</string>
-		</dict>
-		<key>97D4CBEB-6788-4B5D-987C-F5F6C4C57F8D</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>97D4CBEB-6788-4B5D-987C-F5F6C4C57F8D.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>W</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>myapp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>myapp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building project myapp with scheme myapp and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>583746399.93666697</real>
-			<key>timeStoppedRecording</key>
-			<real>583747019.16396499</real>
-			<key>title</key>
-			<string>Building project myapp with scheme myapp and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>97D4CBEB-6788-4B5D-987C-F5F6C4C57F8D</string>
+			<string>3B590E6B-E715-4746-A163-086BFDA7994A</string>
 		</dict>
 	</dict>
 </dict>

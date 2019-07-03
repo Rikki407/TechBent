@@ -1,5 +1,21 @@
-import { StyleSheet } from "react-native";
+import {
+	Platform,
+	StyleSheet,
+	Text,
+	Image,
+	View,
+	Dimensions
+} from "react-native";
 
+var resolveAssetSource = require('resolveAssetSource');
+var imgSrc = resolveAssetSource(require('../assets/imgs/mainCar.jpg'));
+const SCREEN_WIDTH = Dimensions.get('window').width;
+const SCREEN_HEIGHT = Dimensions.get('window').height;
+const IMAGE_RATIO = imgSrc.height / imgSrc.width;
+const IMAGE_HEIGHT = (SCREEN_WIDTH * IMAGE_RATIO) - 0.1875;
+
+console.log("BAAP", IMAGE_HEIGHT, SCREEN_HEIGHT);
+const SI_HD = (SCREEN_HEIGHT - IMAGE_HEIGHT)/2;
 const styles = StyleSheet.create({
 	mainContainer: {
 		//backgroundColor:'#000'
@@ -136,17 +152,16 @@ const styles = StyleSheet.create({
 	},
 	imageView: {
 
-		width: '100%',
-		height: '100%',
-		position: 'absolute',
+		width: SCREEN_WIDTH,
+		height: SCREEN_WIDTH * IMAGE_RATIO
 	},
 	imageViewSO: {
-		left: '11.1%',
-		top:'11.8%',   
-		width: '52.122%',
-		height: '67.8%',
+		left: .12*SCREEN_WIDTH,
+		top: (.115*IMAGE_HEIGHT)+SI_HD,
+		width: .52122*SCREEN_WIDTH,
+		height: .678*SCREEN_WIDTH * IMAGE_RATIO,
 		position: 'absolute',
-		tintColor: 'rgba(20,20,255,0.2)'
+		tintColor: 'rgba(200,20,255,0.2)',
 	},
 	imageViewSS: {
 
@@ -160,7 +175,7 @@ const styles = StyleSheet.create({
 	backgroundImage: {
 		justifyContent: 'center',
 		width: '100%',
-		height: '80.5%',
+		height: '100%',
 		zIndex: -1,
 		//	backgroundColor:'#000'
 	},
