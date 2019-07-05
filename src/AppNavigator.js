@@ -50,7 +50,7 @@ const { height, width } = Dimensions.get('window')
 const Drawer = createDrawerNavigator(
     {
         ThreeD: {
-            screen: DR,
+            screen: Dashboard,
             navigationOptions: {
                 header: null,
             },
