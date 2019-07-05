@@ -7,6 +7,8 @@ import {
 	Dimensions
 } from "react-native";
 
+const TPRC = 0.2;
+
 var resolveAssetSource = require('resolveAssetSource');
 var imgSrc = resolveAssetSource(require('../assets/imgs/mainCar.jpg'));
 const SCREEN_WIDTH = Dimensions.get('window').width;
@@ -155,14 +157,162 @@ const styles = StyleSheet.create({
 		width: SCREEN_WIDTH,
 		height: SCREEN_WIDTH * IMAGE_RATIO
 	},
-	imageViewSO: {
+	imageViewA: {
+		left: .2025*SCREEN_WIDTH,
+		top: (.169*IMAGE_HEIGHT)+SI_HD,
+		width: .57291666*SCREEN_WIDTH,
+		height: .83055555*SCREEN_WIDTH * IMAGE_RATIO,
+		position: 'absolute',
+		tintColor: 'rgba(245,150,7,'+TPRC+')',
+	},
+	imageViewB: {
+		left: .315*SCREEN_WIDTH,
+		top: (.341*IMAGE_HEIGHT)+SI_HD,
+		width: .456640625*SCREEN_WIDTH,
+		height: .394444444*SCREEN_WIDTH * IMAGE_RATIO,
+		position: 'absolute',
+		tintColor: 'rgba(0,250,0,'+TPRC+')',
+	},
+	imageViewC: {
 		left: .12*SCREEN_WIDTH,
 		top: (.115*IMAGE_HEIGHT)+SI_HD,
 		width: .52122*SCREEN_WIDTH,
 		height: .678*SCREEN_WIDTH * IMAGE_RATIO,
 		position: 'absolute',
-		tintColor: 'rgba(200,20,255,0.2)',
+		tintColor: 'rgba(200,20,255,'+TPRC+')',
 	},
+	imageViewD: {
+		left: .449*SCREEN_WIDTH,
+		top: (.645*IMAGE_HEIGHT)+SI_HD,
+		width: .285807291*SCREEN_WIDTH,
+		height: .153009259*SCREEN_WIDTH * IMAGE_RATIO,
+		position: 'absolute',
+		tintColor: 'rgba(2,255,255,'+TPRC+')',
+	},
+	imageViewE: {
+		left: .29*SCREEN_WIDTH,
+		top: (.205*IMAGE_HEIGHT)+SI_HD,
+		width: .4546875*SCREEN_WIDTH,
+		height: .79351851*SCREEN_WIDTH * IMAGE_RATIO,
+		position: 'absolute',
+		tintColor: 'rgba(150,150,250,'+TPRC+')',
+	},
+	imageViewF: {
+		left: .1398*SCREEN_WIDTH,
+		top: (.182*IMAGE_HEIGHT)+SI_HD,
+		width: .500390625*SCREEN_WIDTH,
+		height: .534953703*SCREEN_WIDTH * IMAGE_RATIO,
+		position: 'absolute',
+		tintColor: 'rgba(255,255,0,'+TPRC+')',
+	},
+	imageViewG: {
+		left: .128*SCREEN_WIDTH,
+		top: (.115*IMAGE_HEIGHT)+SI_HD,
+		width: .513020*SCREEN_WIDTH,
+		height: .616666*SCREEN_WIDTH * IMAGE_RATIO,
+		position: 'absolute',
+		tintColor: 'rgba(0,200,200,'+TPRC+')',
+	},
+	imageViewH: {
+		left: .142*SCREEN_WIDTH,
+		top: (.114*IMAGE_HEIGHT)+SI_HD,
+		width: .31197916*SCREEN_WIDTH,
+		height: .384027*SCREEN_WIDTH * IMAGE_RATIO,
+		position: 'absolute',
+		tintColor: 'rgba(255,0,0,'+TPRC+')',
+	},
+
+	imageViewI: {
+		left: .4668*SCREEN_WIDTH,
+		top: (.195*IMAGE_HEIGHT)+SI_HD,
+		width: .2904947*SCREEN_WIDTH,
+		height: .8043981*SCREEN_WIDTH * IMAGE_RATIO,
+		position: 'absolute',
+		tintColor: 'rgba(255,0,50,'+TPRC+')',
+	},
+	imageViewJ: {
+		left: .205*SCREEN_WIDTH,
+		top: (.2*IMAGE_HEIGHT)+SI_HD,
+		width: .206510416*SCREEN_WIDTH,
+		height: .18819444*SCREEN_WIDTH * IMAGE_RATIO,
+		position: 'absolute',
+		tintColor: 'rgba(12,250,0,'+TPRC+')',
+	},
+	imageViewK: {
+		left: .252*SCREEN_WIDTH,
+		top: (.231*IMAGE_HEIGHT)+SI_HD,
+		width: .4076822916*SCREEN_WIDTH,
+		height: .508101851*SCREEN_WIDTH * IMAGE_RATIO,
+		position: 'absolute',
+		tintColor: 'rgba(255,0,0,'+TPRC+')',
+	},
+	imageViewL: {
+		left: .507*SCREEN_WIDTH,
+		top: (.471*IMAGE_HEIGHT)+SI_HD,
+		width: .15247395*SCREEN_WIDTH,
+		height: .048611111*SCREEN_WIDTH * IMAGE_RATIO,
+		position: 'absolute',
+		tintColor: 'rgba(255,0,0,'+TPRC+')',
+	},
+	imageViewM: {
+		left: .596*SCREEN_WIDTH,
+		top: (.197*IMAGE_HEIGHT)+SI_HD,
+		width: .07578125*SCREEN_WIDTH,
+		height: .146759259*SCREEN_WIDTH * IMAGE_RATIO,
+		position: 'absolute',
+		tintColor: 'rgba(250,150,0,'+TPRC+')',
+	},
+	imageViewN: {
+		left: .6428*SCREEN_WIDTH,
+		top: (.167*IMAGE_HEIGHT)+SI_HD,
+		width: .23372395*SCREEN_WIDTH,
+		height: .56041666*SCREEN_WIDTH * IMAGE_RATIO,
+		position: 'absolute',
+		tintColor: 'rgba(200,150,120,'+TPRC+')',
+	},
+	imageViewO: {
+		left: .462*SCREEN_WIDTH,
+		top: (.407*IMAGE_HEIGHT)+SI_HD,
+		width: .07838541*SCREEN_WIDTH,
+		height: .07569444*SCREEN_WIDTH * IMAGE_RATIO,
+		position: 'absolute',
+		tintColor: 'rgba(210,150,220,'+TPRC+')',
+	},
+	imageViewP: {
+		left: .595*SCREEN_WIDTH,
+		top: (.192*IMAGE_HEIGHT)+SI_HD,
+		width: .0502604*SCREEN_WIDTH,
+		height: .15416666*SCREEN_WIDTH * IMAGE_RATIO,
+		position: 'absolute',
+		tintColor: 'rgba(255,0,0,'+TPRC+')',
+	},
+
+	imageViewQ: {
+		left: .0*SCREEN_WIDTH,
+		top: (.146*IMAGE_HEIGHT)+SI_HD,
+		width: .2493489*SCREEN_WIDTH,
+		height: .2981481*SCREEN_WIDTH * IMAGE_RATIO,
+		position: 'absolute',
+		tintColor: 'rgba(2,250,250,'+TPRC+')',
+	},
+	imageViewR: {
+		left: .435*SCREEN_WIDTH,
+		top: (.342*IMAGE_HEIGHT)+SI_HD,
+		width: .3455729*SCREEN_WIDTH,
+		height: .5092592*SCREEN_WIDTH * IMAGE_RATIO,
+		position: 'absolute',
+		tintColor: 'rgba(54,2,242,'+TPRC+')',
+	},
+	imageViewS: {
+		left: .609*SCREEN_WIDTH,
+		top: (.41*IMAGE_HEIGHT)+SI_HD,
+		width: .0154947*SCREEN_WIDTH,
+		height: .03101851*SCREEN_WIDTH * IMAGE_RATIO,
+		position: 'absolute',
+		tintColor: 'rgba(254,0,255,0.2)',
+	},
+	
+
 	imageViewSS: {
 
 		width: '100%',

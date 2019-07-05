@@ -256,105 +256,105 @@ export default class Dashboard extends React.Component {
             colorSplitClick: false,
         });
     }
-    MBcolorNamePick = (val) => {
-        this.setState({
-            MBColorList: false,
-        })
+    // MBcolorNamePick = (val) => {
+    //     this.setState({
+    //         MBColorList: false,
+    //     })
 
-        if (this.state.selectObjectVal == 'DOOR INSERTS' && val == 'MANDARIN') {
-            this.setState({
-                MBcolorName: 'MANDARIN',
-                MBColorList: false,
-                showMBDoorColors: true,
+    //     if (this.state.selectObjectVal == 'DOOR INSERTS' && val == 'MANDARIN') {
+    //         this.setState({
+    //             MBcolorName: 'MANDARIN',
+    //             MBColorList: false,
+    //             showMBDoorColors: true,
 
-                currentMBDoorColor: require('../assets/imgs/Mandarin/DoorInserts.png'),
-                extHideColor: '#c46304'
+    //             currentMBDoorColor: require('../assets/imgs/Mandarin/DoorInserts.png'),
+    //             extHideColor: '#c46304'
 
-            });
-        } else if (this.state.selectObjectVal == 'RR QTR SWOOSH' && val == 'MANDARIN') {
-            this.setState({
-                MBcolorName: 'MANDARIN',
-                MBColorList: false,
+    //         });
+    //     } else if (this.state.selectObjectVal == 'RR QTR SWOOSH' && val == 'MANDARIN') {
+    //         this.setState({
+    //             MBcolorName: 'MANDARIN',
+    //             MBColorList: false,
 
-                showMBRRColors: true,
-                currentMBRRColor: require('../assets/imgs/Mandarin/RRQtrSwoosh.png'),
+    //             showMBRRColors: true,
+    //             currentMBRRColor: require('../assets/imgs/Mandarin/RRQtrSwoosh.png'),
 
-            });
-        } else if (this.state.selectObjectVal == 'SEAT INSERTS' && val == 'MANDARIN') {
-            this.setState({
-                MBcolorName: 'MANDARIN',
-                MBColorList: false,
+    //         });
+    //     } else if (this.state.selectObjectVal == 'SEAT INSERTS' && val == 'MANDARIN') {
+    //         this.setState({
+    //             MBcolorName: 'MANDARIN',
+    //             MBColorList: false,
 
-                showMBseatColors: true,
-                currentMBseatColor: require('../assets/imgs/Mandarin/SeatInserts.png'),
-                extHideColor: '#c46304'
-            });
-        } else if (this.state.selectObjectVal == 'SEAT BOLSTERS' && val == 'MANDARIN') {
+    //             showMBseatColors: true,
+    //             currentMBseatColor: require('../assets/imgs/Mandarin/SeatInserts.png'),
+    //             extHideColor: '#c46304'
+    //         });
+    //     } else if (this.state.selectObjectVal == 'SEAT BOLSTERS' && val == 'MANDARIN') {
 
-            this.setState({
-                MBcolorName: 'MANDARIN',
-                MBColorList: false,
-                showMBseatBolColors: true,
-                currentMBseatBolColor: require('../assets/imgs/Mandarin/SeatBolsters.png'),
-                extHideColor: '#c46304'
-            });
-        }
-        else if (this.state.selectObjectVal == 'SEAT OUTER' && val == 'MANDARIN') {
+    //         this.setState({
+    //             MBcolorName: 'MANDARIN',
+    //             MBColorList: false,
+    //             showMBseatBolColors: true,
+    //             currentMBseatBolColor: require('../assets/imgs/Mandarin/SeatBolsters.png'),
+    //             extHideColor: '#c46304'
+    //         });
+    //     }
+    //     else if (this.state.selectObjectVal == 'SEAT OUTER' && val == 'MANDARIN') {
 
-            this.setState({
-                MBcolorName: 'MANDARIN',
-                MBColorList: false,
-                showseatOutColors: true,
-                currentseatOutColor: require('../assets/imgs/Mandarin/MHCamel_Seat%20Backs.png'),
-                extHideColor: '#c46304'
-            });
-        }
+    //         this.setState({
+    //             MBcolorName: 'MANDARIN',
+    //             MBColorList: false,
+    //             showseatOutColors: true,
+    //             currentseatOutColor: require('../assets/imgs/Mandarin/MHCamel_Seat%20Backs.png'),
+    //             extHideColor: '#c46304'
+    //         });
+    //     }
 
-        else if (this.state.selectObjectVal == 'SEAT BOL OUTER' && val == 'MANDARIN') {
-            this.setState({
-                MBcolorName: 'MANDARIN',
-                MBColorList: false,
-                showseatBolOutColors: true,
-                currentseatBolOutColor: require('../assets/imgs/Mandarin/SeatBolsterOuter.png'),
-                extHideColor: '#c46304'
-            });
-        }
-        else if (this.state.selectObjectVal == 'Head Rest' && val == 'MANDARIN') {
-            this.setState({
-                MBcolorName: 'MANDARIN',
-                MBColorList: false,
-                showHeadrestColors: true,
-                currentHeadrestColor: require('../assets/imgs/Mandarin/Headrests.png'),
-                extHideColor: '#c46304'
-            });
-        }
-        else if (this.state.selectObjectVal == 'OVERMAT BINDING' && val == 'MANDARIN') {
-            this.setState({
-                MBcolorName: 'MANDARIN',
-                MBColorList: false,
-                showOvermatColors: true,
-                currentOvermatColor: require('../assets/imgs/Mandarin/OvermatBinding.png'),
-                extHideColor: '#c46304'
-            });
-        }
-        else {
-            this.setState({
-                MBcolorName: 'SELECT COLOR',
-                MBColorList: false,
-                showOvermatColors: false,
-                showHeadrestColors: false,
-                showseatBolOutColors: false,
-                showseatOutColors: true,
-                showMBseatBolColors: false,
-                showMBseatColors: false,
-                showMBRRColors: false,
-                showMBDoorColors: false,
+    //     else if (this.state.selectObjectVal == 'SEAT BOL OUTER' && val == 'MANDARIN') {
+    //         this.setState({
+    //             MBcolorName: 'MANDARIN',
+    //             MBColorList: false,
+    //             showseatBolOutColors: true,
+    //             currentseatBolOutColor: require('../assets/imgs/Mandarin/SeatBolsterOuter.png'),
+    //             extHideColor: '#c46304'
+    //         });
+    //     }
+    //     else if (this.state.selectObjectVal == 'Head Rest' && val == 'MANDARIN') {
+    //         this.setState({
+    //             MBcolorName: 'MANDARIN',
+    //             MBColorList: false,
+    //             showHeadrestColors: true,
+    //             currentHeadrestColor: require('../assets/imgs/Mandarin/Headrests.png'),
+    //             extHideColor: '#c46304'
+    //         });
+    //     }
+    //     else if (this.state.selectObjectVal == 'OVERMAT BINDING' && val == 'MANDARIN') {
+    //         this.setState({
+    //             MBcolorName: 'MANDARIN',
+    //             MBColorList: false,
+    //             showOvermatColors: true,
+    //             currentOvermatColor: require('../assets/imgs/Mandarin/OvermatBinding.png'),
+    //             extHideColor: '#c46304'
+    //         });
+    //     }
+    //     else {
+    //         this.setState({
+    //             MBcolorName: 'SELECT COLOR',
+    //             MBColorList: false,
+    //             showOvermatColors: false,
+    //             showHeadrestColors: false,
+    //             showseatBolOutColors: false,
+    //             showseatOutColors: true,
+    //             showMBseatBolColors: false,
+    //             showMBseatColors: false,
+    //             showMBRRColors: false,
+    //             showMBDoorColors: false,
 
-                extHideColor: 'white'
-            });
-            //alert('there no selection');
-        }
-    }
+    //             extHideColor: 'white'
+    //         });
+    //         //alert('there no selection');
+    //     }
+    // }
 
     getColor = () => {
         return this.state.colorSplitColor;
@@ -416,64 +416,30 @@ export default class Dashboard extends React.Component {
         };
         return (
             <View style={styles.mainContainer}>
-                {/* <StatusBar barStyle="light-content" /> */}
-                {/* <View style={styles.HeaderView}>
-                    <View style={styles.HeaderMainRowView}>
-                        <View style={styles.HeaderMainColView1}>
-                            <TouchableOpacity
-                                //style={styles.ColorsplitListView}
-                                onPress={() => this.backBtnclick()}
-                            //onPress={() => this.props.navigation.navigate("Createtourtrip")}
-                            >
-                                <Image source={require('../assets/img/back.png')} ></Image>
-                            </TouchableOpacity>
-
-                        </View>
-                        <View style={[styles.HeaderMainColView2, { marginLeft: '-4%' }]}>
-                            <TouchableOpacity
-                                //style={styles.ColorsplitListView}
-                                onPress={() => this.ColorSplitclickA()}>
-                                <Image source={require('../assets/imgs/Bentley_Mulliner_Logo_icon/Bentley_Mulliner_logo.png')} ></Image>
-                            </TouchableOpacity>
-                        </View>
-                        <View style={styles.HeaderMainColView3}>
-                            <Text style={[styles.textStyle2, { fontFamily: 'Bentley-Bold' }]}>NEW CONTINENTAL GT</Text>
-                        </View>
-                        <View style={styles.HeaderMainColView2}>
-                            <View style={styles.headercolBtnView}>
-                                {this.state.screenshotbutton ?
-                                    <TouchableOpacity
-                                        style={styles.headerBtnView}
-                                        onPress={() => this.screenshotBtn()}>
-                                        <Text style={styles.textStyle2}>PUBLISH</Text>
-                                    </TouchableOpacity> : null}
-                            </View>
-                            <View style={styles.headercolshareView}>
-                                {this.state.showShareIcon ?
-                                    <TouchableOpacity onPress={() => {
-                                        // Share.open(shareOptions);
-                                        Share.open(shareImageBase64);
-                                    }}>
-                                        <Image source={require('../assets/imgs/Bentley_Continental_GT_Icon_image/Share_icon_Gray.png')} style={{ width: 35, height: 35 }}></Image>
-                                    </TouchableOpacity> : null}
-                            </View>
-
-                        </View>
-                        <View style={styles.HeaderMainColView1}>
-                            <TouchableOpacity
-                                // style={styles.HeaderMainTabTextLabel}
-                                // onPress={() => this.mainColorclickPage2()}
-                                onPress={() => this.props.navigation.openDrawer()}
-                            >
-                                <Image source={require('../assets/img/menu.png')} ></Image>
-                            </TouchableOpacity>
-                        </View>
-                    </View>
-                </View > */}
-                
                 <View style={styles.backgroundImage}>
                     <Image source={require('../assets/imgs/mainCar.jpg')} style={styles.imageView} ></Image>
-                    <Image source={require('../assets/imgs/Mandarin/MHCamel_Seat%20Backs.png')} style={styles.imageViewSO} ></Image>
+                    <Image source={require('../assets/imgs/Cropped/C.png')} style={styles.imageViewC} ></Image>
+                    <Image source={require('../assets/imgs/Cropped/G.png')} style={styles.imageViewG} ></Image>
+                    <Image source={require('../assets/imgs/Cropped/H.png')} style={styles.imageViewH} ></Image>
+                    <Image source={require('../assets/imgs/Cropped/F.png')} style={styles.imageViewF} ></Image>
+                    <Image source={require('../assets/imgs/Cropped/E.png')} style={styles.imageViewE} ></Image>
+                    <Image source={require('../assets/imgs/Cropped/A.png')} style={styles.imageViewA} ></Image>
+                    <Image source={require('../assets/imgs/Cropped/B.png')} style={styles.imageViewB} ></Image>
+                    <Image source={require('../assets/imgs/Cropped/D.png')} style={styles.imageViewD} ></Image>
+                    <Image source={require('../assets/imgs/Cropped/I.png')} style={styles.imageViewI} ></Image>
+                    <Image source={require('../assets/imgs/Cropped/J.png')} style={styles.imageViewJ} ></Image>
+                    <Image source={require('../assets/imgs/Cropped/M.png')} style={styles.imageViewM} ></Image>
+                    <Image source={require('../assets/imgs/Cropped/Q.png')} style={styles.imageViewQ} ></Image>
+                    <Image source={require('../assets/imgs/Cropped/R.png')} style={styles.imageViewR} ></Image>
+                    <Image source={require('../assets/imgs/Cropped/K.png')} style={styles.imageViewK} ></Image>
+                    <Image source={require('../assets/imgs/Cropped/P.png')} style={styles.imageViewP} ></Image>
+                    <Image source={require('../assets/imgs/Cropped/N.png')} style={styles.imageViewN} ></Image>
+                    <Image source={require('../assets/imgs/Cropped/L.png')} style={styles.imageViewL} ></Image>
+                    <Image source={require('../assets/imgs/Cropped/O.png')} style={styles.imageViewO} ></Image>
+                    <Image source={require('../assets/imgs/Cropped/S.png')} style={styles.imageViewS} ></Image>
+
+                    {this.state.showOvermatColors ? <Image source={this.state.currentOvermatColor} style={styles.imageView} ></Image> : null}
+                    {this.state.showSeatColors ? <Image source={this.state.currentSeatColor} style={styles.imageViewSS} ></Image> : null}
                     {this.state.showHeadrestColors ? <Image source={this.state.currentHeadRestColor} style={styles.imageView} ></Image> : null}
                     {this.state.showMBDoorColors ? <Image source={this.state.currentMBDoorColor} style={styles.imageView} ></Image> : null}
                     {this.state.showMBRRColors ? <Image source={this.state.currentMBRRColor} style={styles.imageView} ></Image> : null}
@@ -482,7 +448,7 @@ export default class Dashboard extends React.Component {
                     {this.state.showseatOutColors ? <Image source={this.state.currentseatOutColor} style={styles.imageViewSO} ></Image> : null}
                     {this.state.showseatBolOutColors ? <Image source={this.state.currentseatBolOutColor} style={styles.imageView} ></Image> : null}
                     {this.state.showHeadrestColors ? <Image source={this.state.currentHeadrestColor} style={styles.imageView} ></Image> : null}
-                    {this.state.showOvermatColors ? <Image source={this.state.currentOvermatColor} style={styles.imageView} ></Image> : null}
+
                 </View>
             </View>
         );
